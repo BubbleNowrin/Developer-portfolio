@@ -7,11 +7,15 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .color-change {
     color: orange;
 }
 
-section {
+.flexible-sec {
     display: flex;
     padding-bottom: 150px;
 }
@@ -19,6 +23,19 @@ section {
 .half-width {
     width: 50%;
     padding-left: 5%;
+
+}
+
+.experience-item {
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+
+
 }
 
 .half-width img {
@@ -44,4 +61,24 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#fswd {
+    border-left: 7px solid tomato;
+
+}
+
+#bwd {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
